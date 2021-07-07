@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img.jpg);;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    min-height: 400px;
+    background: white;
+    padding: 40px 30px;
+    box-shadow: 0 0 5px rgba(114, 70, 70, 0.3);
+    border-radius: 20px;
+}
+
+.container .logintext{
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .loginsocial{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%,1fr));
+    margin-bottom: 25px;
+}
+.container .loginsocial a{
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(114, 70, 70, 0.3);
+    transition: .3s;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container .loginsocial a i{
+    margin-right: 5px;
+}
+
+.container .loginemail .inputgrp{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .loginemail .inputgrp input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .loginemail .inputgrp input:focus, .container .loginemail .inputgrp input:valid{
+    border-color: turquoise;
+}
+
+.container .loginemail .inputgrp .btn{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: turquoise;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.container .loginemail .inputgrp .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+.register_text a{
+    color: turquoise;
+    text-decoration: none;
+}
