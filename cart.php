@@ -90,7 +90,7 @@ if (isset($_POST['action']) && $_POST['action'] == "change") {
 
   <!-- Cart Items -->
 
-  <div style="width:100%; margin:50 auto;">
+  <div style=" margin:50 auto;margin-right:20rem;margin-left:20rem;">
 
     <h2 style="text-align: center; font-weight:bolder; font-family: Comic Sans MS, Comic Sans, cursive; font-size:40px;">Shopping Cart</h2>
 
@@ -119,7 +119,7 @@ if (isset($_POST['action']) && $_POST['action'] == "change") {
                   <form method='post' action=''>
                     <input type='hidden' name='code' value="<?php echo $product["code"]; ?>" />
                     <input type='hidden' name='action' value="remove" />
-                    <button type='submit' class='remove' style="border-radius: 8px; background-color:aqua; border:none; height:5rem; width:10rem; cursor:pointer;">Remove Item</button>
+                    <button type='submit' class='remove' style="border-radius: 8px; background-color:#ff7c9c; border:none; height:3rem; width:10rem; cursor:pointer;">Remove Item</button>
                   </form>
                 </td>
                 <td>

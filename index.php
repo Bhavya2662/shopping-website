@@ -83,7 +83,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
 
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#home" class="nav-link scroll-link">Home</a>
+              <a href="#home" class="nav-link ">Home</a>
             </li>
             <li class="nav-item">
 
@@ -97,10 +97,10 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
               </div>
             </li>
             <li class="nav-item">
-              <a href="about.php" class="nav-link scroll-link">About</a>
+              <a href="about.php" class="nav-link ">About</a>
             </li>
             <li class="nav-item">
-              <a href="logout.php" class="nav-link scroll-link">Logout</a>
+              <a href="logout.php" class="nav-link ">Logout</a>
             </li>
             <li class="nav-item">
               <a href="cart.php" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
@@ -108,7 +108,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
           </ul>
         </div>
 
-        <a href="cart.html" class="cart-icon">
+        <a href="cart.php" class="cart-icon">
           <i class="bx bx-shopping-bag"></i>
         </a>
 
@@ -127,7 +127,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
         <span>Mega Diwali</span>
         <span>Offer</span>
       </h1>
-      <a class="btn" href="products.php">shop now</a>
+      <a class="btn" href="product.php">shop now</a>
     </div>
   </header>
 
@@ -266,10 +266,10 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
         </div>
         <div class="right">
           <div class="content">
-            <h2 style="font-size: 50px;"><span class="discount">70% </span> SALE OFF</h2>
+            <h2 style="font-size: 50px;"><span class="discount">90% </span>OFF</h2>
             <h1>
-              <span style="font-size: 100px;">Collect Your</span>
-              <span style="font-size: 100px;">Kids Collection</span>
+              <span style="font-size: 100px;">Diwali</span>
+              <span style="font-size: 100px;">Special Collection</span>
             </h1>
             <a class="btn" href="products.php">shop now</a>
           </div>
@@ -297,7 +297,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
             <i class="bx bx-star"></i>
           </div>
           <div class="img-cover">
-            <img src="images/Ragini.jpg" alt="" />
+            <img src="images/raagi.jpg" alt="" />
           </div>
           <h4><b>Ragini Pandey</b></h4>
         </div>

@@ -84,24 +84,24 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
 
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="index.php" class="nav-link scroll-link">Home</a>
+                            <a href="index.php" class="nav-link ">Home</a>
                         </li>
                         <li class="nav-item">
 
                             <div class="dropdown">
                                 <a href="product.php" class="nav-link">Products</a>
                                 <div class="dropdown-content">
-                                    <a href="#">Men</a>
-                                    <a href="#">Women</a>
-                                    <a href="#">Kids</a>
+                                    <a href="#men">Men</a>
+                                    <a href="#women">Women</a>
+                                    <a href="#kids">Kids</a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="about.php" class="nav-link scroll-link">About</a>
+                            <a href="about.php" class="nav-link ">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="logout.php" class="nav-link scroll-link">Logout</a>
+                            <a href="logout.php" class="nav-link ">Logout</a>
                         </li>
                         <li class="nav-item">
                             <a href="cart.php" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
@@ -109,7 +109,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
                     </ul>
                 </div>
 
-                <a href="cart.html" class="cart-icon">
+                <a href="cart.php" class="cart-icon">
                     <i class="bx bx-shopping-bag"></i>
                 </a>
 
@@ -148,7 +148,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
         </div>
 
         <div class="title">
-            <h1>Men</h1>
+            <h1 id="men">Men</h1>
         </div>
 
         <div class="product-center container">
@@ -190,7 +190,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
             ?>
         </div>
         <div class="title">
-            <h1>Women</h1>
+            <h1 id="women">Women</h1>
         </div>
         <div class="product-center container">
 
@@ -230,7 +230,7 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
             ?>
         </div>
         <div class="title">
-            <h1>Kids</h1>
+            <h1 id="kids">Kids</h1>
         </div>
         <div class="product-center container">
 

@@ -47,7 +47,7 @@
 
         .card:hover {
 
-            transform: scale(1.5);
+            transform: scale(1.2);
         }
 
         /* Some left and right padding inside the container */
@@ -65,25 +65,6 @@
 
         .title {
             color: grey;
-        }
-
-        .button {
-            border: none;
-            outline: 0;
-            display: inline-block;
-            padding: 8px;
-            color: white;
-            background-color: #000;
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            border-radius: 12px;
-
-        }
-
-        .button:hover {
-            background-color: white;
-            color: black;
         }
     </style>
 </head>
@@ -110,7 +91,7 @@
 
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="index.php" class="nav-link scroll-link">Home</a>
+                            <a href="index.php" class="nav-link ">Home</a>
                         </li>
                         <li class="nav-item">
 
@@ -124,10 +105,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="about.php" class="nav-link scroll-link">About</a>
+                            <a href="about.php" class="nav-link ">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="logout.php" class="nav-link scroll-link">Logout</a>
+                            <a href="logout.php" class="nav-link ">Logout</a>
                         </li>
                         <li class="nav-item">
                             <a href="cart.php" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
@@ -135,7 +116,7 @@
                     </ul>
                 </div>
 
-                <a href="cart.html" class="cart-icon">
+                <a href="cart.php" class="cart-icon">
                     <i class="bx bx-shopping-bag"></i>
                 </a>
 
@@ -144,6 +125,7 @@
                 </div>
             </div>
         </nav>
+
 
         <!-- Hero -->
         <img src="images/logo.png" alt="" class="hero-img" />
