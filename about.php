@@ -9,6 +9,9 @@
 
     <!-- Box icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -34,9 +37,12 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
             transition: transform .2s;
-            background-color: #6CB6FB;
+            background-color: rgb(57, 206, 251);
             height: 500px;
             border-radius: 12px;
+            padding-right: 5rem;
+            padding-left: 5rem;
+            padding-top: 1rem;
         }
 
         .card:hover {
@@ -166,25 +172,22 @@
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <img src="images/ma2.jpg" alt="Jane" style="width:100%">
+                        <img src="images/bhavya.jpg" alt="Jane" width="350px" height="350px">
                         <div class="container">
-                            <h2>Jane Doe</h2>
-                            <p class="title">CEO &amp; Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
+                            <h2> <b>Bhavya Sharma</b> </h2>
+                            <p>bhavya@example.com</p>
+                            <div class="col item social" style="text-indent: 3rem; font-size:30px;"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="column">
                     <div class="card">
-                        <img src="images/ma2.jpg" alt="Mike" width="400px" height="400px">
+                        <img src="images/raagi.jpg" alt="Mike" width="350px" height="350px">
                         <div class="container">
-                            <h2>Mike Ross</h2>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
+                            <h2> <b>Ragini Pandey</b> </h2>
+                            <p>ragini@example.com</p>
+                            <div class="col item social" style="text-indent: 3rem; font-size:30px;"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -194,26 +197,22 @@
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <img src="images/ma2.jpg" alt="Jane" style="width:100%">
+                        <img src="images/nitu.jpg" alt="Jane" width="350px" height="350px">
                         <div class="container">
-                            <h2>Jane Doe</h2>
-                            <p class="title">CEO &amp; Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
+                            <h2> <b>Nitu</b> </h2>
+                            <p>nitu@example.com</p>
+                            <div class="col item social" style="text-indent: 3rem; font-size:30px;"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="column">
                     <div class="card">
-                        <img src="images/ma2.jpg" alt="Mike" style="width:100%">
+                        <img src="images/ashvi.jpg" alt="Mike" width="350px" height="350px">
                         <div class="container">
-                            <h2>Mike Ross</h2>
-                            <p class="title">Art Director</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
+                            <h2> <b>Ashvi Bansal</b> </h2>
+                            <p>ashvi@example.com</p>
+                            <div class="col item social" style="text-indent: 3rem; font-size:30px;"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                         </div>
                     </div>
                 </div>
