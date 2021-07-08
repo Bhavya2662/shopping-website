@@ -110,7 +110,7 @@
 
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="#home" class="nav-link scroll-link">Home</a>
+                            <a href="index.php" class="nav-link scroll-link">Home</a>
                         </li>
                         <li class="nav-item">
 

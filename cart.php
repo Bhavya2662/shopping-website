@@ -64,13 +64,10 @@ if (isset($_POST['action']) && $_POST['action'] == "change") {
             <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="product.html" class="nav-link">Products</a>
+            <a href="product.php" class="nav-link">Products</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="about.php" class="nav-link">About</a>
           </li>
           <li class="nav-item">
             <a href="logout.php" class="nav-link">Logout</a>

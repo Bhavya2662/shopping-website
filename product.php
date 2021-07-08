@@ -59,55 +59,77 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
 
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Boy’s T-Shirt</title>
+    <title>Products</title>
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="navigation container">
-            <div class="logo">
-                <h1>Fashion Site</h1>
-            </div>
-
-            <div class="menu">
-                <div class="top-nav">
-                    <div class="logo">
-                        <h1>Fashion Site</h1>
-                    </div>
-                    <div class="close">
-                        <i class="bx bx-x"></i>
-                    </div>
+    <header id="home" class="header">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="navigation container">
+                <div class="logo">
+                    <h1>Fashion Site</h1>
                 </div>
 
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.php" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="product.php" class="nav-link">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.php" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="logout.php" class="nav-link">Logout</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="cart.php" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
-                    </li>
-                </ul>
-            </div>
+                <div class="menu">
+                    <div class="top-nav">
+                        <div class="logo">
+                            <h1>Fashion Site</h1>
+                        </div>
+                        <div class="close">
+                            <i class="bx bx-x"></i>
+                        </div>
+                    </div>
 
-            <a href="cart.html" class="cart-icon">
-                <i class="bx bx-shopping-bag"></i>
-            </a>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
 
-            <div class="hamburger">
-                <i class="bx bx-menu"></i>
+                            <div class="dropdown">
+                                <a href="product.php" class="nav-link">Products</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Men</a>
+                                    <a href="#">Women</a>
+                                    <a href="#">Kids</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.php" class="nav-link scroll-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="logout.php" class="nav-link scroll-link">Logout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cart.php" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="cart.html" class="cart-icon">
+                    <i class="bx bx-shopping-bag"></i>
+                </a>
+
+                <div class="hamburger">
+                    <i class="bx bx-menu"></i>
+                </div>
             </div>
+        </nav>
+
+        <!-- Hero -->
+        <img src="images/prod.png" alt="" class="hero-img" />
+
+        <div class="hero-content">
+            <h1>
+                <span>Products</span>
+            </h1>
+
+            <h2 style="font-size: 50px; color:white">All of our produts at your service</h2>
         </div>
-    </nav>
+    </header>
 
     <!-- All Products -->
     <section class="section all-products" id="products">

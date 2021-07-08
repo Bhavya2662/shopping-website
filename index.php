@@ -331,9 +331,9 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
             <i class="bx bx-star"></i>
           </div>
           <div class="img-cover">
-            <img src="images/Ragini.jpg" alt="" />
+            <img src="images/nitu.jpg" alt="" />
           </div>
-          <h4><b>Ragini Pandey</b></h4>
+          <h4><b>Nitu</b></h4>
         </div>
         <div class="testimonial" style="background-color: #1588F5 ; color:white;">
           <span>&ldquo;</span>
@@ -348,9 +348,9 @@ if (isset($_POST['code']) && $_POST['code'] != "") {
             <i class="bx bx-star"></i>
           </div>
           <div class="img-cover">
-            <img src="images/Ragini.jpg" alt="" />
+            <img src="images/ashvi.jpg" alt="" />
           </div>
-          <h4><b>Ragini Pandey</b></h4>
+          <h4><b>Ashvi Bansal</b></h4>
         </div>
       </div>
     </section>
